@@ -1,0 +1,41 @@
+<!-- Developed and Maintained by Aswin V S (github.com/aswin-vs) -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+	<title>Dynamic Face-Emoji Rating</title>
+  <link rel="icon" href="./images/favicon.png"/>
+
+	<!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins|Ubuntu" rel="stylesheet"/>
+
+	<!--External CSS-->
+	<link rel="stylesheet" href="./css/style.css"/>
+
+</head>
+
+<body>
+	<form class="fr" action="">
+		<label class="fr__label" for="face-rating">How is this ?</label>
+		<div class="fr__face" role="img" aria-label="Straight face">
+			<div class="fr__face-right-eye" data-right></div>
+			<div class="fr__face-left-eye" data-left></div>
+			<div class="fr__face-mouth-lower" data-mouth-lower></div>
+			<div class="fr__face-mouth-upper" data-mouth-upper></div>
+		</div>
+		<input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+	</form>
+
+	<footer>
+		<p class="foot-text">Made with ❤️ by Aswin V S</p>
+	</footer>
+
+	<!--External JavaScript-->
+	<script src="./script.js"></script>
+
+</body>
+</html>
